@@ -5,14 +5,10 @@ from locally
 
 # Steps to run 
 
-  ### Step 1 :
+  ### Step 1 :  will build docker image parser
 
-      will build docker image parser
+     docker build . -t parser
 
-        docker build . -t parser
+  ### Step 2 : will run parser with command line arguments 
 
-  ### Step 2 :
-
-      will run parser with command line arguments 
-
-         docker run parser https://www.google.com https://tutorialedge.net/golang/go-docker-tutorial/
+     docker run parser https://www.google.com https://tutorialedge.net/golang/go-docker-tutorial/
